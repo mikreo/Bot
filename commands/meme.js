@@ -7,7 +7,7 @@ module.exports = {
 
 var  randNum = randomInt(1,9)
 
-  switch (randomNum) {
+  switch (randNum) {
     case 1:
       return message.channel.send('https://cdn.discordapp.com/attachments/463478570853859330/507795794225528832/image9.jpg');
       break;
