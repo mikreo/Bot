@@ -43,7 +43,8 @@ var  randNum = randomInt(1,9)
     case 9:
       message.channel.send("https://cdn.discordapp.com/attachments/305794496140935168/512741953608220702/images.png")
 
-
+    default:
+      message.channel.send("Somthing went wrong!")
   }
 
 
