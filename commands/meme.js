@@ -5,7 +5,7 @@ module.exports = {
     function randomInt(low, high) {
   return Math.floor(Math.random() * (high - low + 1) + low)}
 
-var  randNum = randomInt(1,9)
+var randNum = randomInt(1,9)
 
   switch (randNum) {
     case 1:
