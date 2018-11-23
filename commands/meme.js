@@ -38,7 +38,7 @@ module.exports = {
       break;
 
     case 6:
-      Emeded.setImage('https://media.discordapp.net/attachments/463478570853859330/506601243070693396/image0.jpg')
+      Embeded.setImage('https://media.discordapp.net/attachments/463478570853859330/506601243070693396/image0.jpg')
       return message.channel.send(Embebed);
       break;
 
