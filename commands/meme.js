@@ -1,3 +1,4 @@
+const Discord = require('discord.js')
 module.exports = {
   name: "meme",
   description:"Gives a random meme in an embed.",
@@ -6,17 +7,14 @@ module.exports = {
   return Math.floor(Math.random() * (high - low + 1) + low)}
 
   var randNum = randomInt(1,9)
-  const Embeded = new Discord.MessageEmbed()
-  .setColor('#00ffcc')
-  .setTitle('Here is your meme!')
+  
 
 
 
 
   switch (randNum) {
     case 1:
-      return message.channel.send('https://cdn.discordapp.com/attachments/463478570853859330/507795794225528832/image9.jpg');
-      break;
+      return message.channel.send('https://cdn.discordapp.com/attachments/463478570853859330/507795794225528832/image9.jpg')
 
     case 2:
       return message.channel.send('https://cdn.discordapp.com/attachments/463478570853859330/507795798411575311/image3.jpg');
