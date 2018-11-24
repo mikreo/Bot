@@ -1,0 +1,22 @@
+module.exports = {
+    name: "johnny",
+    description: "Johnny Johnny Yes Papa",
+    args: true,
+    execute(message,args){
+      if (args[0]==null){
+        return message.channel.send('Johnny johnny?\nYes papa?\nEating sugar?\nNo papa.\nTelling lies?\nNo papa.\nOpen your mouth.\nHahahahahahahaha.')
+      }
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+}
