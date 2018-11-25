@@ -14,7 +14,6 @@ for (const file of commandFiles) {
 
 client.on('ready', () => {
     console.log('Ready!');
-    message.channel.send('I\'m ready!')
 });
 
 
