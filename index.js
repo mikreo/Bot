@@ -14,9 +14,18 @@ for (const file of commandFiles) {
 
 client.on('ready', () => {
     console.log('Ready!');
+    message.channel.send('I\'m ready!')
 });
 
+
+
+
 client.on('message', message => {
+  if (message.content=='Memes diss me.'){
+    message.channel.send(`${message.author}, you have an alien hairline.`)}
+
+
+
   if (!message.content.startsWith(prefix)||message.author.bot) return;
 
   const args = message.content.slice(prefix.length).split(/ +/);
