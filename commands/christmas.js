@@ -1,9 +1,9 @@
 module.exports = {
   name: 'christmas',
   description:'Gives christmasy things.',
-  args: true
-  execute(message,args)
+  args: true,
+  execute(message,args){
     let D = Date()
     let Month = D.getMonth()
-    return message.channel.send(Month);
+    return message.channel.send(Month);}
 }
