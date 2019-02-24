@@ -6,7 +6,7 @@ module.exports = {
     function randomInt(low, high) {
   return Math.floor(Math.random() * (high - low + 1) + low)}
 
-  var randNum = randomInt(1,9)
+  var randNum = randomInt(1,10)
   const Embed = new Discord.RichEmbed()
   .setColor('#00ffcc')
   .setTitle('Here is your meme!')
@@ -55,7 +55,9 @@ module.exports = {
     case 9:
       Embed.setImage('https://cdn.discordapp.com/attachments/305794496140935168/512741953608220702/images.png')
       return message.channel.send(Embed)
-
+    case 10:
+      Embed.setImage('https://cdn.discordapp.com/attachments/463478570853859330/545389510536724510/image0.jpg')
+      return message.channel.send(Embed)
     default:
       return message.channel.send('Somthing went wrong!')
   }
